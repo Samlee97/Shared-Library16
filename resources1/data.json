@@ -2,7 +2,7 @@ jira {
 "name":"DemoSharedLibrary"
 }
 
-nexus {
+Nexus {
    "artifactId":"Web_Build_Artifacts",
                      "classifier": "",
                     "filePath": "target/JenkinsWar.war",

@@ -9,7 +9,7 @@ def playbook(String inventory, String rolePath) {
     sh(shellCommand)
 }
 def gitClone() {
-   echo "Executing Git Clone to download Artifact from Nexus to EC2 ansible role"
+   echo "Executing Git Clone to download ansible role"
    
    def removeAnsibleRole = " rm -rf ansiblerole"
    sh(removeAnsibleRole)

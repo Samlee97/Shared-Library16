@@ -3,7 +3,9 @@
 "name":"DemoSharedLibrary"
 },
 
-
+"ansible": {
+"url":"https://github.com/Samlee97/AnsibleRole.git"
+},
 
 "Nexus": {
    "artifactId":"Web_Build_Artifacts",

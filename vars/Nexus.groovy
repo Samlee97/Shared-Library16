@@ -5,7 +5,7 @@ Nexus(String data){
 def jsonSlurper = new JsonSlurper() 
 def resultJson = jsonSlurper.parseText(data)
                    
-def artf='"'+resultJson.artifactId+'""'
+def artf='"'+resultJson.Nexus.artifactId+'""'
 
                       }
 def call(){

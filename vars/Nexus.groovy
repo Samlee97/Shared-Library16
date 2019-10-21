@@ -7,6 +7,7 @@ def resultJson = jsonSlurper.parseText(data)
   
 def repo='"'+resultJson.Nexus.repository_name+'"'                   
 def artf='"'+resultJson.Nexus.artifactId+'"'
+  print(artf)
 
                       }
 def call(){

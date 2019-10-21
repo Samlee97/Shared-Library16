@@ -8,6 +8,7 @@
 },
 
 "Nexus": {
+   "repository_name": "Demo-SharedLibrary",
    "artifactId":"Web_Build_Artifacts",
                      "classifier": "",
                     "filePath": "target/JenkinsWar.war",

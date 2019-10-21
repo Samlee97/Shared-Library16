@@ -5,7 +5,7 @@ sonar(String data){
 def jsonSlurper = new JsonSlurper() 
 def resultJson = jsonSlurper.parseText(data)
 withSonarQubeEnv('Sonar') {
-                sh 'mvn sonar:sonar -Dproject.settings=./sonar.properties'
+                curl -u admin:admin -X POST 'http://ec2-18-224-155-110.us-east-2.compute.amazonaws.com:9000/api/projects/create?key=lee&name=sam
                 }
                 }
                 

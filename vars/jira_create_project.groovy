@@ -12,6 +12,7 @@ createIssues(String key){
 createProject(String data){
 def jsonSlurper = new JsonSlurper() 
 def resultJson = jsonSlurper.parseText(data)
+ println(resultJson)
 def projectName = '"'+resultJson.name+'"'
 def length = 3
 def projLength = resultJson.name.size()

@@ -4,8 +4,9 @@ import groovy.json.JsonSlurper
 Nexus(String data){
 def jsonSlurper = new JsonSlurper() 
 def resultJson = jsonSlurper.parseText(data)
-                   
-def artf='"'+resultJson.Nexus.artifactId+'""'
+  
+def repo='"'+resultJson.Nexus.repository_name+'"'                   
+def artf='"'+resultJson.Nexus.artifactId+'"'
 
                       }
 def call(){
